@@ -1,0 +1,20 @@
+{
+  "name": "starter-test-suite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress run",
+    "cypress:dev": "cypress open",
+    "run": "cd target && npm run serve",
+    "test": "start-server-and-test run $CYPRESS_BASE_URL cypress",
+    "test:dev": "start-server-and-test run $CYPRESS_BASE_URL cypress:dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.0.3",
+    "start-server-and-test": "^1.7.0"
+  }
+}

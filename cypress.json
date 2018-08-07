@@ -1,0 +1,8 @@
+{
+  "fixturesFolder": "tests/starter-gatsby-blog/fixtures",
+  "integrationFolder":"tests/starter-gatsby-blog/integration",
+  "pluginsFile": "tests/starter-gatsby-blog/plugins/index.js",
+  "screenshotsFolder": "tests/starter-gatsby-blog/screenshots",
+  "supportFile": "tests/starter-gatsby-blog/support/index.js",
+  "videosFolder": "tests/starter-gatsby-blog/videos"
+}
