@@ -14,10 +14,10 @@ TEST_REPO="contentful/starter-foo" TEST_BRANCH="master" TEST_CMD_INSTALL="npm i"
 
 ## Run test
 ```sh
-CYPRESS_BASE_URL="http://localhost:8080" npm run test
+CYPRESS_BASE_URL="http://localhost:8080" CYPRESS_INTEGRATION_FOLDER="tests/starter-gatsby-blog/integration" npm run test
 ```
 
 ## Run test dev environment
 ```sh
-CYPRESS_BASE_URL="http://localhost:8080" npm run test:dev
+CYPRESS_BASE_URL="http://localhost:8080" CYPRESS_INTEGRATION_FOLDER="tests/starter-gatsby-blog/integration" npm run test:dev
 ```

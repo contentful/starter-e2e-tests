@@ -2,10 +2,11 @@ dist: trusty
 language: node_js
 node_js:
   - "8"
-# script: echo "This project is using build stages for testing"
-jobs:
-  include:
-    - stage: "Prepare"
-      script: ./bin/prepare-repo-to-test.sh
-    - stage: "Test"
-      script: npm run test
+cache:
+  directories:
+    - "node_modules"
+    - "target/node_modules"
+    - ~/.npm
+    - ~/.cache
+before_script: ./bin/prepare-repo-to-test.sh
+script: npm run test
