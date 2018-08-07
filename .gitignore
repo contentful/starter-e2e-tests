@@ -1,6 +1,5 @@
 target
-tests/**/screenshots
-tests/**/videos
+cypress
 
 # Created by https://www.gitignore.io/api/osx,node,code,linux,windows
 
